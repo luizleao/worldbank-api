@@ -12,7 +12,7 @@ public class WorldBankResourceTest {
     @Test
     public void testGetIndicatorsEndpoint() {
         given()
-          .when().get("/country/indicators/BRA")
+          .when().get("/worldbank/indicators?country=BRA")
           .then()
              .statusCode(200)
              .body(is("Hello RESTEasy"));
