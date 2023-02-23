@@ -9,7 +9,8 @@ import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import javax.ws.rs.core.Application;
 
 @OpenAPIDefinition(
-        tags={@Tag(name="WorldBankAPI", description="Descrição do WorldBank API")},
+        tags={@Tag(name="WorldBankAPI",
+                   description="Fornece dados referentes aos países e seus respectivos indicadores sócio-econômicos")},
         info = @Info(
                 title = "WorldBank API",
                 version = "1.0.0",
