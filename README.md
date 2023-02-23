@@ -58,3 +58,6 @@ If you want to learn more about building native executables, please consult http
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+## Swagger-UI
+http://localhost:8080/q/swagger-ui/
